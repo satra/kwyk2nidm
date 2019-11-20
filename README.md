@@ -1,2 +1,1 @@
-# kwyk2nidm
-NIDMification of kwyk output
+# KWYK-Based Structural Segmentation to NIDM Exporter

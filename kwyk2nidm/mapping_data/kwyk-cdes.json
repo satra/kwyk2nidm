@@ -1,0 +1,883 @@
+{
+  "count": 98,
+  "KWYK(structure='Cerebral-White-Matter', measure='number_voxels', unit='voxels')": {
+    "id": "000001",
+    "structure_id": 1,
+    "label": "Cerebral-White-Matter number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002437",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Cerebral-White-Matter', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000002",
+    "structure_id": 1,
+    "label": "Cerebral-White-Matter vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002437",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Ventricular-System', measure='number_voxels', unit='voxels')": {
+    "id": "000003",
+    "structure_id": 2,
+    "label": "Ventricular-System number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0005282",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Ventricular-System', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000004",
+    "structure_id": 2,
+    "label": "Ventricular-System vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0005282",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Cerebellum-White-Matter', measure='number_voxels', unit='voxels')": {
+    "id": "000005",
+    "structure_id": 3,
+    "label": "Cerebellum-White-Matter number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002317",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Cerebellum-White-Matter', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000006",
+    "structure_id": 3,
+    "label": "Cerebellum-White-Matter vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002317",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Cerebellum-Cortex', measure='number_voxels', unit='voxels')": {
+    "id": "000007",
+    "structure_id": 4,
+    "label": "Cerebellum-Cortex number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002129",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Cerebellum-Cortex', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000008",
+    "structure_id": 4,
+    "label": "Cerebellum-Cortex vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002129",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Thalamus-Proper', measure='number_voxels', unit='voxels')": {
+    "id": "000009",
+    "structure_id": 5,
+    "label": "Thalamus-Proper number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001897",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Thalamus-Proper', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000010",
+    "structure_id": 5,
+    "label": "Thalamus-Proper vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001897",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Caudate', measure='number_voxels', unit='voxels')": {
+    "id": "000011",
+    "structure_id": 6,
+    "label": "Caudate number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001873",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Caudate', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000012",
+    "structure_id": 6,
+    "label": "Caudate vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001873",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Putamen', measure='number_voxels', unit='voxels')": {
+    "id": "000013",
+    "structure_id": 7,
+    "label": "Putamen number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001874",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Putamen', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000014",
+    "structure_id": 7,
+    "label": "Putamen vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001874",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Pallidum', measure='number_voxels', unit='voxels')": {
+    "id": "000015",
+    "structure_id": 8,
+    "label": "Pallidum number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006514",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Pallidum', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000016",
+    "structure_id": 8,
+    "label": "Pallidum vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006514",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Brain-Stem', measure='number_voxels', unit='voxels')": {
+    "id": "000017",
+    "structure_id": 9,
+    "label": "Brain-Stem number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002298",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Brain-Stem', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000018",
+    "structure_id": 9,
+    "label": "Brain-Stem vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002298",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Hippocampus', measure='number_voxels', unit='voxels')": {
+    "id": "000019",
+    "structure_id": 10,
+    "label": "Hippocampus number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001954",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Hippocampus', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000020",
+    "structure_id": 10,
+    "label": "Hippocampus vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001954",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Amygdala', measure='number_voxels', unit='voxels')": {
+    "id": "000021",
+    "structure_id": 11,
+    "label": "Amygdala number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001876",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Amygdala', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000022",
+    "structure_id": 11,
+    "label": "Amygdala vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001876",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='CSF', measure='number_voxels', unit='voxels')": {
+    "id": "000023",
+    "structure_id": 12,
+    "label": "CSF number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001359",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='CSF', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000024",
+    "structure_id": 12,
+    "label": "CSF vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001359",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Accumbens-area', measure='number_voxels', unit='voxels')": {
+    "id": "000025",
+    "structure_id": 13,
+    "label": "Accumbens-area number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001882",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Accumbens-area', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000026",
+    "structure_id": 13,
+    "label": "Accumbens-area vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001882",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='VentralDC', measure='number_voxels', unit='voxels')": {
+    "id": "000027",
+    "structure_id": 14,
+    "label": "VentralDC number_voxels (voxels)",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='VentralDC', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000028",
+    "structure_id": 14,
+    "label": "VentralDC vol_inmm3 (mm^3)",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Corpus_Callosum', measure='number_voxels', unit='voxels')": {
+    "id": "000029",
+    "structure_id": 15,
+    "label": "Corpus_Callosum number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002336",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='Corpus_Callosum', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000030",
+    "structure_id": 15,
+    "label": "Corpus_Callosum vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002336",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-bankssts', measure='number_voxels', unit='voxels')": {
+    "id": "000031",
+    "structure_id": 16,
+    "label": "ctx-bankssts number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0028622",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-bankssts', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000032",
+    "structure_id": 16,
+    "label": "ctx-bankssts vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0028622",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-caudalanteriorcingulate', measure='number_voxels', unit='voxels')": {
+    "id": "000033",
+    "structure_id": 17,
+    "label": "ctx-caudalanteriorcingulate number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0028715",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-caudalanteriorcingulate', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000034",
+    "structure_id": 17,
+    "label": "ctx-caudalanteriorcingulate vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0028715",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-caudalmiddlefrontal', measure='number_voxels', unit='voxels')": {
+    "id": "000035",
+    "structure_id": 18,
+    "label": "ctx-caudalmiddlefrontal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006445",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-caudalmiddlefrontal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000036",
+    "structure_id": 18,
+    "label": "ctx-caudalmiddlefrontal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006445",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-cuneus', measure='number_voxels', unit='voxels')": {
+    "id": "000037",
+    "structure_id": 19,
+    "label": "ctx-cuneus number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006092",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-cuneus', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000038",
+    "structure_id": 19,
+    "label": "ctx-cuneus vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006092",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-entorhinal', measure='number_voxels', unit='voxels')": {
+    "id": "000039",
+    "structure_id": 20,
+    "label": "ctx-entorhinal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002728",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-entorhinal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000040",
+    "structure_id": 20,
+    "label": "ctx-entorhinal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002728",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-fusiform', measure='number_voxels', unit='voxels')": {
+    "id": "000041",
+    "structure_id": 21,
+    "label": "ctx-fusiform number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002766",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-fusiform', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000042",
+    "structure_id": 21,
+    "label": "ctx-fusiform vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002766",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-inferiorparietal', measure='number_voxels', unit='voxels')": {
+    "id": "000043",
+    "structure_id": 22,
+    "label": "ctx-inferiorparietal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006088",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-inferiorparietal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000044",
+    "structure_id": 22,
+    "label": "ctx-inferiorparietal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006088",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-inferiortemporal', measure='number_voxels', unit='voxels')": {
+    "id": "000045",
+    "structure_id": 23,
+    "label": "ctx-inferiortemporal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002751",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-inferiortemporal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000046",
+    "structure_id": 23,
+    "label": "ctx-inferiortemporal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002751",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-isthmuscingulate', measure='number_voxels', unit='voxels')": {
+    "id": "000047",
+    "structure_id": 24,
+    "label": "ctx-isthmuscingulate number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0027061",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-isthmuscingulate', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000048",
+    "structure_id": 24,
+    "label": "ctx-isthmuscingulate vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0027061",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-lateraloccipital', measure='number_voxels', unit='voxels')": {
+    "id": "000049",
+    "structure_id": 25,
+    "label": "ctx-lateraloccipital number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006114",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-lateraloccipital', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000050",
+    "structure_id": 25,
+    "label": "ctx-lateraloccipital vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006114",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-lateralorbitofrontal', measure='number_voxels', unit='voxels')": {
+    "id": "000051",
+    "structure_id": 26,
+    "label": "ctx-lateralorbitofrontal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022716",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-lateralorbitofrontal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000052",
+    "structure_id": 26,
+    "label": "ctx-lateralorbitofrontal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022716",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-lingual', measure='number_voxels', unit='voxels')": {
+    "id": "000053",
+    "structure_id": 27,
+    "label": "ctx-lingual number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002943",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-lingual', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000054",
+    "structure_id": 27,
+    "label": "ctx-lingual vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002943",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-medialorbitofrontal', measure='number_voxels', unit='voxels')": {
+    "id": "000055",
+    "structure_id": 28,
+    "label": "ctx-medialorbitofrontal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022352",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-medialorbitofrontal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000056",
+    "structure_id": 28,
+    "label": "ctx-medialorbitofrontal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022352",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-middletemporal', measure='number_voxels', unit='voxels')": {
+    "id": "000057",
+    "structure_id": 29,
+    "label": "ctx-middletemporal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002771",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-middletemporal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000058",
+    "structure_id": 29,
+    "label": "ctx-middletemporal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002771",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parahippocampal', measure='number_voxels', unit='voxels')": {
+    "id": "000059",
+    "structure_id": 30,
+    "label": "ctx-parahippocampal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002973",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parahippocampal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000060",
+    "structure_id": 30,
+    "label": "ctx-parahippocampal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002973",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-paracentral', measure='number_voxels', unit='voxels')": {
+    "id": "000061",
+    "structure_id": 31,
+    "label": "ctx-paracentral number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0007190",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-paracentral', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000062",
+    "structure_id": 31,
+    "label": "ctx-paracentral vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0007190",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parsopercularis', measure='number_voxels', unit='voxels')": {
+    "id": "000063",
+    "structure_id": 32,
+    "label": "ctx-parsopercularis number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002980",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parsopercularis', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000064",
+    "structure_id": 32,
+    "label": "ctx-parsopercularis vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002980",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parsorbitalis', measure='number_voxels', unit='voxels')": {
+    "id": "000065",
+    "structure_id": 33,
+    "label": "ctx-parsorbitalis number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002593",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parsorbitalis', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000066",
+    "structure_id": 33,
+    "label": "ctx-parsorbitalis vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002593",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parstriangularis', measure='number_voxels', unit='voxels')": {
+    "id": "000067",
+    "structure_id": 34,
+    "label": "ctx-parstriangularis number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002629",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-parstriangularis', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000068",
+    "structure_id": 34,
+    "label": "ctx-parstriangularis vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002629",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-pericalcarine', measure='number_voxels', unit='voxels')": {
+    "id": "000069",
+    "structure_id": 35,
+    "label": "ctx-pericalcarine number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022534",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-pericalcarine', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000070",
+    "structure_id": 35,
+    "label": "ctx-pericalcarine vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022534",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-postcentral', measure='number_voxels', unit='voxels')": {
+    "id": "000071",
+    "structure_id": 36,
+    "label": "ctx-postcentral number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002581",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-postcentral', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000072",
+    "structure_id": 36,
+    "label": "ctx-postcentral vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002581",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-posteriorcingulate', measure='number_voxels', unit='voxels')": {
+    "id": "000073",
+    "structure_id": 37,
+    "label": "ctx-posteriorcingulate number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002740",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-posteriorcingulate', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000074",
+    "structure_id": 37,
+    "label": "ctx-posteriorcingulate vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002740",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-precentral', measure='number_voxels', unit='voxels')": {
+    "id": "000075",
+    "structure_id": 38,
+    "label": "ctx-precentral number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002703",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-precentral', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000076",
+    "structure_id": 38,
+    "label": "ctx-precentral vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002703",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-precuneus', measure='number_voxels', unit='voxels')": {
+    "id": "000077",
+    "structure_id": 39,
+    "label": "ctx-precuneus number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006093",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-precuneus', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000078",
+    "structure_id": 39,
+    "label": "ctx-precuneus vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006093",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-rostralanteriorcingulate', measure='number_voxels', unit='voxels')": {
+    "id": "000079",
+    "structure_id": 40,
+    "label": "ctx-rostralanteriorcingulate number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022438",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-rostralanteriorcingulate', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000080",
+    "structure_id": 40,
+    "label": "ctx-rostralanteriorcingulate vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022438",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-rostralmiddlefrontal', measure='number_voxels', unit='voxels')": {
+    "id": "000081",
+    "structure_id": 41,
+    "label": "ctx-rostralmiddlefrontal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006446",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-rostralmiddlefrontal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000082",
+    "structure_id": 41,
+    "label": "ctx-rostralmiddlefrontal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006446",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-superiorfrontal', measure='number_voxels', unit='voxels')": {
+    "id": "000083",
+    "structure_id": 42,
+    "label": "ctx-superiorfrontal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002661",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-superiorfrontal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000084",
+    "structure_id": 42,
+    "label": "ctx-superiorfrontal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002661",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-superiorparietal', measure='number_voxels', unit='voxels')": {
+    "id": "000085",
+    "structure_id": 43,
+    "label": "ctx-superiorparietal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006094",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-superiorparietal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000086",
+    "structure_id": 43,
+    "label": "ctx-superiorparietal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006094",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-superiortemporal', measure='number_voxels', unit='voxels')": {
+    "id": "000087",
+    "structure_id": 44,
+    "label": "ctx-superiortemporal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002769",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-superiortemporal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000088",
+    "structure_id": 44,
+    "label": "ctx-superiortemporal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002769",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-supramarginal', measure='number_voxels', unit='voxels')": {
+    "id": "000089",
+    "structure_id": 45,
+    "label": "ctx-supramarginal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002688",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-supramarginal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000090",
+    "structure_id": 45,
+    "label": "ctx-supramarginal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002688",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-frontalpole', measure='number_voxels', unit='voxels')": {
+    "id": "000091",
+    "structure_id": 46,
+    "label": "ctx-frontalpole number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002795",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-frontalpole', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000092",
+    "structure_id": 46,
+    "label": "ctx-frontalpole vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002795",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-temporalpole', measure='number_voxels', unit='voxels')": {
+    "id": "000093",
+    "structure_id": 47,
+    "label": "ctx-temporalpole number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002576",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-temporalpole', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000094",
+    "structure_id": 47,
+    "label": "ctx-temporalpole vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002576",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-transversetemporal', measure='number_voxels', unit='voxels')": {
+    "id": "000095",
+    "structure_id": 48,
+    "label": "ctx-transversetemporal number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0003939",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-transversetemporal', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000096",
+    "structure_id": 48,
+    "label": "ctx-transversetemporal vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0003939",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-insula', measure='number_voxels', unit='voxels')": {
+    "id": "000097",
+    "structure_id": 49,
+    "label": "ctx-insula number_voxels (voxels)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0034891",
+    "datumType": "http://uri.interlex.org/base/ilx_0102597",
+    "hasUnit": "voxel",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  },
+  "KWYK(structure='ctx-insula', measure='vol_inmm3', unit='mm^3')": {
+    "id": "000098",
+    "structure_id": 49,
+    "label": "ctx-insula vol_inmm3 (mm^3)",
+    "isAbout": "http://purl.obolibrary.org/obo/UBERON_0034891",
+    "datumType": "http://uri.interlex.org/base/ilx_0738276",
+    "hasUnit": "mm^3",
+    "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+  }
+}

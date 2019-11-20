@@ -41,7 +41,7 @@ if [ -f "$output" ]; then
 fi
 
 # header line in output
-echo "kywk_index label number_voxels vol_inmm3" >> $output
+echo "kwyk_index label number_voxels vol_inmm3" >> $output
 
 # loop for the kwyk fill values
 OLDIFS=$IFS

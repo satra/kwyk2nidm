@@ -1,0 +1,212 @@
+{
+  "Measures": {
+    "number_voxels": {
+      "datumType": "http://uri.interlex.org/base/ilx_0102597",
+      "hasUnit": "voxel",
+      "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+    },
+    "vol_inmm3": {
+      "datumType": "http://uri.interlex.org/base/ilx_0738276",
+      "hasUnit": "mm^3",
+      "measureOf": "http://uri.interlex.org/base/ilx_0112559"
+    }
+  },
+  "Structures": {
+    "Accumbens-area": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001882",
+      "kwyk_index": 13
+    },
+    "Amygdala": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001876",
+      "kwyk_index": 11
+    },
+    "Brain-Stem": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002298",
+      "kwyk_index": 9
+    },
+    "CSF": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001359",
+      "kwyk_index": 12
+    },
+    "Caudate": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001873",
+      "kwyk_index": 6
+    },
+    "Cerebellum-Cortex": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002129",
+      "kwyk_index": 4
+    },
+    "Cerebellum-White-Matter": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002317",
+      "kwyk_index": 3
+    },
+    "Cerebral-White-Matter": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002437",
+      "kwyk_index": 1
+    },
+    "Corpus_Callosum": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002336",
+      "kwyk_index": 15
+    },
+    "Hippocampus": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001954",
+      "kwyk_index": 10
+    },
+    "Pallidum": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006514",
+      "kwyk_index": 8
+    },
+    "Putamen": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001874",
+      "kwyk_index": 7
+    },
+    "Thalamus-Proper": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0001897",
+      "kwyk_index": 5
+    },
+    "VentralDC": {
+      "isAbout": "CUSTOM: it was 'invented' by CMA. Something like: Ventral Diencephalon contains the hypothalamus, basal forebrain, and sublenticular extended amygdala (SLEA), as well as a large portion of ventral tegmentum. See also https://doi.org/10.1016/j.biopsych.2008.01.018",
+      "kwyk_index": 14
+    },
+    "Ventricular-System": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0005282",
+      "kwyk_index": 2
+    },
+    "ctx-bankssts": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0028622",
+      "kwyk_index": 16
+    },
+    "ctx-caudalanteriorcingulate": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0028715",
+      "kwyk_index": 17
+    },
+    "ctx-caudalmiddlefrontal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006445",
+      "kwyk_index": 18
+    },
+    "ctx-cuneus": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006092",
+      "kwyk_index": 19
+    },
+    "ctx-entorhinal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002728",
+      "kwyk_index": 20
+    },
+    "ctx-frontalpole": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002795",
+      "kwyk_index": 46
+    },
+    "ctx-fusiform": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002766",
+      "kwyk_index": 21
+    },
+    "ctx-inferiorparietal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006088",
+      "kwyk_index": 22
+    },
+    "ctx-inferiortemporal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002751",
+      "kwyk_index": 23
+    },
+    "ctx-insula": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0034891",
+      "kwyk_index": 49
+    },
+    "ctx-isthmuscingulate": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0027061",
+      "kwyk_index": 24
+    },
+    "ctx-lateraloccipital": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006114",
+      "kwyk_index": 25
+    },
+    "ctx-lateralorbitofrontal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022716",
+      "kwyk_index": 26
+    },
+    "ctx-lingual": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002943",
+      "kwyk_index": 27
+    },
+    "ctx-medialorbitofrontal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022352",
+      "kwyk_index": 28
+    },
+    "ctx-middletemporal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002771",
+      "kwyk_index": 29
+    },
+    "ctx-paracentral": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0007190",
+      "kwyk_index": 31
+    },
+    "ctx-parahippocampal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002973",
+      "kwyk_index": 30
+    },
+    "ctx-parsopercularis": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002980",
+      "kwyk_index": 32
+    },
+    "ctx-parsorbitalis": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002593",
+      "kwyk_index": 33
+    },
+    "ctx-parstriangularis": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002629",
+      "kwyk_index": 34
+    },
+    "ctx-pericalcarine": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022534",
+      "kwyk_index": 35
+    },
+    "ctx-postcentral": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002581",
+      "kwyk_index": 36
+    },
+    "ctx-posteriorcingulate": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002740",
+      "kwyk_index": 37
+    },
+    "ctx-precentral": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002703",
+      "kwyk_index": 38
+    },
+    "ctx-precuneus": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006093",
+      "kwyk_index": 39
+    },
+    "ctx-rostralanteriorcingulate": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0022438",
+      "kwyk_index": 40
+    },
+    "ctx-rostralmiddlefrontal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006446",
+      "kwyk_index": 41
+    },
+    "ctx-superiorfrontal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002661",
+      "kwyk_index": 42
+    },
+    "ctx-superiorparietal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0006094",
+      "kwyk_index": 43
+    },
+    "ctx-superiortemporal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002769",
+      "kwyk_index": 44
+    },
+    "ctx-supramarginal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002688",
+      "kwyk_index": 45
+    },
+    "ctx-temporalpole": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0002576",
+      "kwyk_index": 47
+    },
+    "ctx-transversetemporal": {
+      "isAbout": "http://purl.obolibrary.org/obo/UBERON_0003939",
+      "kwyk_index": 48
+    }
+  }
+}

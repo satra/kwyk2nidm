@@ -1,4 +1,4 @@
-kywk_index label number_voxels vol_inmm3
+kwyk_index label number_voxels vol_inmm3
 1 Cerebral-White-Matter 496396 496396.000000 
 2 Ventricular-System 11025 11025.000000 
 3 Cerebellum-White-Matter 32515 32515.000000 
