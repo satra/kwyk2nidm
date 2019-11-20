@@ -26,7 +26,25 @@ etc...
 ## Convert the volume result file into NIDM
 The steps for this include generating a kwykmap.json file that described the content of out reults file (*kwykmap.json*). 
 
-Install `kwyk2nidm` and call `kwyk2nidm -f kwyk_stats_file`
+1. Install `kwyk2nidm` into your Python 3 environment
+
+```
+pip install https://github.com/ReproNim/kwyk2nidm/archive/master.zip
+
+kwyk2nidm -f kwyk_stats_file
+```
+
+2. Clone the repo and create a Docker container
+
+```
+git clone https://github.com/ReproNim/kwyk2nidm.git
+cd kwyk2nidm
+docker build -t kwyk2nidm:latest .
+docker run -v $(pwd):/data kwyk2nidm -f /data/kwyk_stats_file
+```
+
+To generate all the NIDM KWYK data elements add `-g` to the commands above. 
+This will generate a 
  
 # Great!  I have a NIDM **kwyk** result.  Now What???
 ## Query it!
