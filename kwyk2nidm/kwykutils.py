@@ -214,15 +214,34 @@ def main():
     parser.add_argument(
         "-f",
         "--kwyk_stats",
-        dest="stats_files",
+        dest="stats_file",
         required=True,
         type=str,
         help="KWYK stats file",
     )
+    parser.add_argument(
+        "-g",
+        "--gen-nidm",
+        dest="generate",
+        action="store_true",
+        default=False,
+        help="Generate KWYK CDE graph",
+    )
+    parser.add_argument(
+        "-o",
+        "--outfile",
+        dest="outfile",
+        default="kwyk-nidm-out.trig",
+        type=str,
+        help="KWYK NIDM file",
+    )
     args = parser.parse_args()
-    stats = read_kwyk_stats(args.stats_files)
+    stats = read_kwyk_stats(args.stats_file)
     _, doc = convert_stats_to_nidm(stats)
-    print(doc.serialize(format="rdf", rdf_format="trig"))
+    doc.serialize(args.outfile, format="rdf", rdf_format="trig")
+    if args.generate:
+        g = create_cde_graph()
+        g.serialize("KWYK-NIDM.trig", format="trig")
 
 
 if __name__ == "__main__":
