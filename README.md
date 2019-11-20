@@ -13,7 +13,7 @@ Cite: [McClure P, Rho N, Lee JA, Kaczmarzyk JR, Zheng CY, Ghosh SS, Nielson DM, 
 We include a BASH script, 'kwykput.sh' that takes a resulting output from kwyk, and used the FSL *fslstats* utility to determine the volume for each of the regions. This script uses the *kwyk_region_list.txt* file for the region lables (derived from *FreeSurfer*. It generates a text file (example provided *test_out.txt*) of the form:
 
 <pre>
-kywk_index label number_voxels vol_inmm3
+kwyk_index label number_voxels vol_inmm3
 1 Cerebral-White-Matter 496396 496396.000000 
 2 Ventricular-System 11025 11025.000000 
 3 Cerebellum-White-Matter 32515 32515.000000 
