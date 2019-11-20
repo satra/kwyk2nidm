@@ -24,6 +24,8 @@ etc...
 </pre>
 
 ## Convert the volume result file into NIDM
-The steps for this include generating a kwykmap.json file that described the content of out reults file (*kwykmap.json*). Then ***a soon to exist*** python script will take the kwykmap and the output file and generate the NIDM representation of the results.
+The steps for this include generating a kwykmap.json file that described the content of out reults file (*kwykmap.json*). 
 
+Install `kwyk2nidm` and call `kwyk2nidm -f kwyk_stats_file`
+ 
 # Great!  I have a NIDM **kwyk** result.  Now What???
