@@ -29,3 +29,6 @@ The steps for this include generating a kwykmap.json file that described the con
 Install `kwyk2nidm` and call `kwyk2nidm -f kwyk_stats_file`
  
 # Great!  I have a NIDM **kwyk** result.  Now What???
+## Query it!
+
+## Merge it with other NIDM, and query it!
