@@ -41,8 +41,7 @@ setup(
     author_email="satra@mit.edu",
     url="https://github.com/repronim/kwyk2nidm",
     packages=PACKAGES,
-    install_requires=["pandas",
-                      "pynidm"],  # Add requirements as necessary
+    install_requires=["pandas", "pynidm"],  # Add requirements as necessary
     extras_require={
         "devel-docs": [
             # for converting README.md -> .rst for long description
