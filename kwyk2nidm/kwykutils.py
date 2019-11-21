@@ -225,23 +225,25 @@ def main():
         dest="generate",
         action="store_true",
         default=False,
-        help="Generate KWYK CDE graph",
+        help="Generate KWYK CDE graph (KWYK-NIDM.ttl)",
     )
     parser.add_argument(
         "-o",
         "--outfile",
         dest="outfile",
-        default="kwyk-nidm-out.trig",
         type=str,
-        help="KWYK NIDM file",
+        help="Output name for KWYK NIDM file",
     )
     args = parser.parse_args()
     stats = read_kwyk_stats(args.stats_file)
     _, doc = convert_stats_to_nidm(stats)
-    doc.serialize(args.outfile, format="rdf", rdf_format="trig")
+    outfile = args.outfile
+    if outfile is None:
+        outfile = os.path.basename(args.stats_file) + ".ttl"
+    doc.serialize(outfile, format="rdf", rdf_format="turtle")
     if args.generate:
         g = create_cde_graph()
-        g.serialize("KWYK-NIDM.trig", format="trig")
+        g.serialize("KWYK-NIDM.ttl", format="turtle")
 
 
 if __name__ == "__main__":

@@ -24,7 +24,32 @@ etc...
 </pre>
 
 ## Convert the volume result file into NIDM
-The steps for this include generating a kwykmap.json file that described the content of out reults file (*kwykmap.json*). 
+The steps for this include generating a kwykmap.json file that described 
+the content of out reults file (*kwykmap.json*). As a developer, you can 
+then work with ReproNim to create a set of custom terms for your software,
+which are harmonized with other software. This generates a list of custom
+data elements for the software with additional information. For example,
+in the case of kwyk, this maps every structure to a common anatomical name,
+measurement type, and measurement units.
+
+```
+kwyk:kwyk_000002 a kwyk:DataElement ;
+    kwyk:label "Cerebral-White-Matter vol_inmm3 (mm^3)" ;
+    kwyk:measure "vol_inmm3" ;
+    kwyk:structure "Cerebral-White-Matter" ;
+    kwyk:structure_id 1 ;
+    kwyk:unit "mm^3" ;
+    nidm:datumType ilx:0738276 ;
+    nidm:hasUnit "mm^3" ;
+    nidm:isAbout uberon:0002437 ;
+    nidm:measureOf ilx:0112559 .
+```
+
+## Using the kwyk data elements to generate a NIDM result
+
+### Software environment
+
+You can run the kwyk2nidm script using either of the methods below.
 
 1. Install `kwyk2nidm` into your Python 3 environment
 
@@ -43,10 +68,16 @@ docker build -t kwyk2nidm:latest .
 docker run -v $(pwd):/data kwyk2nidm -f /data/kwyk_stats_file
 ```
 
+Running the kwyk2nidm command will generate an output file 
+`kwyk_stats_file.ttl` unless a different name is specified using the 
+`-o` flag.
+
 To generate all the NIDM KWYK data elements add `-g` to the commands above. 
-This will generate a 
+This will generate a `KWYK-NIDM.ttl` that should be added to provide the 
+link between the NIDM stats file to the common data attributes.
  
 # Great!  I have a NIDM **kwyk** result.  Now What???
-## Query it!
 
-## Merge it with other NIDM, and query it!
+1. Upload to ReproPond or ReproLake
+2. Query across files!
+3. Merge it with other NIDM, and query it!
