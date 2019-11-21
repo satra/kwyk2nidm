@@ -73,8 +73,8 @@ Running the kwyk2nidm command will generate an output file
 `-o` flag.
 
 To generate all the NIDM KWYK data elements add `-g` to the commands above. 
-This will generate a `KWYK-NIDM.ttl` that should be added to provide the 
-link between the NIDM stats file to the common data attributes.
+This will generate a `KWYK-NIDM.ttl` that should be added to triplestore
+to provide the link between the NIDM stats file to the common data attributes.
  
 # Great!  I have a NIDM **kwyk** result.  Now What???
 
