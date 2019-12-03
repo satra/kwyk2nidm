@@ -10,6 +10,8 @@ from pathlib import Path
 import rdflib as rl
 import pandas as pd
 
+from . import __version__ as version
+
 KWYK = namedtuple("KWYK", ["structure", "measure", "unit"])
 cde_file = Path(os.path.dirname(__file__)) / "mapping_data" / "kwyk-cdes.json"
 map_file = Path(os.path.dirname(__file__)) / "mapping_data" / "kwykmap.json"
@@ -239,7 +241,29 @@ def main():
     )
     args = parser.parse_args()
     stats = read_kwyk_stats(args.stats_file)
-    _, doc = convert_stats_to_nidm(stats)
+    e, doc = convert_stats_to_nidm(stats)
+    from nidm.core import Constants
+    from nidm.experiment.Core import getUUID
+    import prov
+
+    kwyk = prov.model.Namespace("kwyk", str(KWYKNS))
+    niiri = prov.model.Namespace("niiri", str(Constants.NIIRI))
+    crypto = prov.model.Namespace("crypto", "http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#")
+    nidm = prov.model.Namespace("nidm", "http://purl.org/nidash/nidm#")
+    from hashlib import sha512
+    file_hash = sha512()
+    with open(args.stats_file, 'rb') as fp:
+        file_hash.update(fp.read())
+    stats_e = doc.entity(identifier=niiri[getUUID()],
+                         other_attributes={crypto['sha512']: file_hash.hexdigest()})
+    kwyk_a = doc.activity(identifier=niiri[getUUID()])
+    kwyk_ag = doc.agent(identifier=niiri[getUUID()],
+                        other_attributes={prov.model.PROV_TYPE: prov.model.PROV['SoftwareAgent'],
+                                          nidm['NIDM_0000164']: prov.model.Literal("https://github.com/ReproNim/kwyk2nidm", prov.model.XSD_ANYURI),
+                                          nidm['NIDM_0000122']: version})
+    doc.wasAssociatedWith(kwyk_a, agent=kwyk_ag)
+    doc.wasDerivedFrom(e, stats_e, activity=kwyk_a)
+
     outfile = args.outfile
     if outfile is None:
         outfile = os.path.basename(args.stats_file) + ".ttl"
