@@ -263,6 +263,7 @@ def main():
                                           nidm['NIDM_0000122']: version})
     doc.wasAssociatedWith(kwyk_a, agent=kwyk_ag)
     doc.wasDerivedFrom(e, stats_e, activity=kwyk_a)
+    doc.wasDerivedFrom(e, stats_e)
 
     outfile = args.outfile
     if outfile is None:
