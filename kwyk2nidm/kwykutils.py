@@ -137,6 +137,7 @@ def create_cde_graph(restrict_to=None):
     g.bind("uberon", "http://purl.obolibrary.org/obo/UBERON_")
     g.bind("ilx", "http://uri.interlex.org/base/ilx_")
 
+    g.add((kwyk["DataElement"], rl.RDFS['subClassOf'], nidm['DataElement']))
     for key, value in kwyk_cde.items():
         if key == "count":
             continue
@@ -154,6 +155,8 @@ def create_cde_graph(restrict_to=None):
                 g.add((kwyk[kwykid], nidm[subkey], rl.URIRef(item)))
             elif subkey in ["hasUnit"]:
                 g.add((kwyk[kwykid], nidm[subkey], rl.Literal(item)))
+            elif subkey in ["label"]:
+                g.add((kwyk[kwykid], rl.RDFS['label'], rl.Literal(item)))
             else:
                 if isinstance(item, rl.URIRef):
                     g.add((kwyk[kwykid], kwyk[subkey], item))
